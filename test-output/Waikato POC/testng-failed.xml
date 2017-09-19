@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Waikato POC]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Waikato Register FF(failed)">
+    <classes>
+      <class name="Test1">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="RegistrationTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <Test1est1 -->
+    </classes>
+  </test> <!-- Waikato Register FF(failed) -->
+</suite> <!-- Failed suite [Waikato POC] -->

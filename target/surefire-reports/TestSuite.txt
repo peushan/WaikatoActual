@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 22.426 s <<< FAILURE! - in TestSuite
+RegistrationTest(com.wikato.register.Test1)  Time elapsed: 12.642 s  <<< FAILURE!
+java.io.IOException: Cannot run program "C:\Peushan\Fileupload.exe": CreateProcess error=2, The system cannot find the file specified
+	at com.wikato.register.Test1.RegistrationTest(Test1.java:27)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at com.wikato.register.Test1.RegistrationTest(Test1.java:27)
+

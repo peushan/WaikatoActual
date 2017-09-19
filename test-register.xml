@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Waikato POC">
+    <test name="Test Register">
+        <classes>
+            <class name="Test1">
+                <methods>
+                    <include name="RegistrationTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
